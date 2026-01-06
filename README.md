@@ -114,12 +114,12 @@ Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 ```
 firebase-nextjs/
 ├── app/                      # Next.js App Router
-│   ├── layout.tsx           # Ana layout
-│   ├── page.tsx            # Ana sayfa
-│   └── products/           # Ürünler sayfası
-│       ├── page.tsx        # Ürünler route
-│       ├── Products.tsx    # Server Component
-│       ├── types.ts        # TypeScript tipleri
+│   ├── layout.tsx            # Ana layout
+│   ├── page.tsx              # Ana sayfa
+│   └── products/             # Ürünler sayfası
+│       ├── page.tsx          # Ürünler route
+│       ├── Products.tsx      # Server Component
+│       ├── types.ts          # TypeScript tipleri
 │       └── components/
 │           └── products-list/
 │               └── ProductsList.tsx  # Client Component
@@ -127,7 +127,7 @@ firebase-nextjs/
 │   └── lib/
 │       ├── firebase.ts          # Client-side Firebase config
 │       └── firebase-admin.ts    # Server-side Firebase Admin config
-├── public/                   # Statik dosyalar
+├── public/                  # Statik dosyalar
 ├── .env.local               # Environment değişkenleri (git'e eklenmez)
 └── package.json
 ```
